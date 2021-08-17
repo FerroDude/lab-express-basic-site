@@ -4,8 +4,36 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
-html {
-  font-family: 'Poppins', sans-serif;
+body {
+  padding-top: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2em;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+header {
+  padding-top: 2em;
+}
+
+article {
+  padding-top: 1em;
+}
+
+img {
+  padding-top: 2em;
+  width: 40em;
 }
