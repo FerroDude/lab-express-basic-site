@@ -19,14 +19,16 @@ app.locals.title = 'Alex Honnold';
 
 app.get('/', (request, response) => {
   response.render('home', {
-    title: 'Alex Honnold',
+    title: 'Home',
     name: 'Alex Honnold',
     location: {
       country: 'United States of America',
       city: 'Sacramento',
       state: 'California'
     },
-    article: 'this is the / page'
+    header: "It's time to know about Alex Honnold!",
+    article: 'Alex is a rock climber, famous for his free solo climbs.',
+    picture: 'images/alex-honnold-cliff.jpg'
   });
 });
 
